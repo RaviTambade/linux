@@ -6,14 +6,14 @@ An operating system (OS) manages all other applications and programs in a comput
 Windows, Linux, and Android are examples of operating systems that enable the user to use programs like MS Office, Notepad, and games on the computer or mobile phone. It is necessary to have at least one operating system installed in the computer to run basic programs like browsers.
 
 #### The core functions of an operating system include:
-- Managing hardware resources: An operating system manages resources such as CPU, memory, and disk space, and assigns these resources to running applications.
-- Running applications: An operating system provides an environment in which applications can run and interact with the user.
-- Providing a user interface: An operating system provides a graphical user interface (GUI) that allows users to interact with the computer.
+-<b> Managing hardware resources</b>: An operating system manages resources such as CPU, memory, and disk space, and assigns these resources to running applications.
+-<b> Running applications</b>: An operating system provides an environment in which applications can run and interact with the user.
+-<b> Providing a user interface</b>: An operating system provides a graphical user interface (GUI) that allows users to interact with the computer.
 
 Examples of popular operating systems include:
-- Windows: Microsoft Windows is the most popular desktop operating system, used by over 1 billion users worldwide. It has a wide range of features and applications, including the Office suite, gaming, and productivity tools.
-- macOS: macOS is the desktop operating system used by Apple Mac computers. It is known for its clean, user-friendly interface, and is popular among creative professionals.
-- Linux: Linux is an open-source operating system that is available for free and can be customized to meet specific needs. It is used by developers and businesses, as well as individuals who prefer an open-source, customizable operating system.
+- <b>Windows</b>: Microsoft Windows is the most popular desktop operating system, used by over 1 billion users worldwide. It has a wide range of features and applications, including the Office suite, gaming, and productivity tools.
+-<b> macOS</b>: macOS is the desktop operating system used by Apple Mac computers. It is known for its clean, user-friendly interface, and is popular among creative professionals.
+-<b> Linux</b>: Linux is an open-source operating system that is available for free and can be customized to meet specific needs. It is used by developers and businesses, as well as individuals who prefer an open-source, customizable operating system.
 
 
 ## History of Operating Systems
@@ -59,6 +59,7 @@ Now to perform the functions mentioned above, the operating system has two compo
 - Shell
 - Kernel
 
+## What is Shell?
 
 Shell handles user interactions. It is the outermost layer of the OS and manages the interaction between user and operating system by:
 
@@ -97,13 +98,13 @@ In a modern-day approach to monolithic architecture, a microkernel contains diff
 Linus Torvalds introduced the concept of a monolithic kernel in 1991 as a part of the Linux kernel. A monolithic kernel is a single large program that contains all operating system components. However, the Linux kernel evolved over the years and now consists of different types of kernels, as listed below.
 
 
-1. Monolithic Kernel As the name suggests, a monolithic kernel is a single large program that contains all operating system components. The entire kernel executes in the processor’s privileged mode and provides full access to the system’s hardware. Monolithic kernels are faster than microkernels because they don’t have the overhead of message passing. This type of kernel is generally used in embedded systems and real-time operating systems.
+1. <b>Monolithic Kernel</b> As the name suggests, a monolithic kernel is a single large program that contains all operating system components. The entire kernel executes in the processor’s privileged mode and provides full access to the system’s hardware. Monolithic kernels are faster than microkernels because they don’t have the overhead of message passing. This type of kernel is generally used in embedded systems and real-time operating systems.
 
-2. Microkernel A microkernel is a kernel that contains only the essential components required for the basic functioning of the operating system. All other components are removed from the kernel and implemented as user-space processes. The microkernel approach provides better modularity, flexibility, and extensibility. It is also more stable and secure than monolithic kernels.
+2.<b> Microkernel </b>A microkernel is a kernel that contains only the essential components required for the basic functioning of the operating system. All other components are removed from the kernel and implemented as user-space processes. The microkernel approach provides better modularity, flexibility, and extensibility. It is also more stable and secure than monolithic kernels.
 
-3. Hybrid Kernel A hybrid kernel is a kernel that combines the best features of both monolithic kernels and microkernels. It contains a small microkernel that provides the essential components for the basic functioning of the OS. The remaining components are implemented as user-space processes or as loadable kernel modules. This approach provides the best of both worlds, namely, the performance of monolithic kernels and the modularity of microkernels.
+3.<b> Hybrid Kernel</b> A hybrid kernel is a kernel that combines the best features of both monolithic kernels and microkernels. It contains a small microkernel that provides the essential components for the basic functioning of the OS. The remaining components are implemented as user-space processes or as loadable kernel modules. This approach provides the best of both worlds, namely, the performance of monolithic kernels and the modularity of microkernels.
 
-4. Exokernel An exokernel is a kernel that provides the bare minimum components required for the basic functioning of the operating system. All other components are removed from the kernel and implemented as user-space processes. The exokernel approach provides the best possible performance because there is no kernel overhead. However, it is also the most difficult to implement and is not widely used.
+4. <b>Exokernel</b> An exokernel is a kernel that provides the bare minimum components required for the basic functioning of the operating system. All other components are removed from the kernel and implemented as user-space processes. The exokernel approach provides the best possible performance because there is no kernel overhead. However, it is also the most difficult to implement and is not widely used.
 
 
 
@@ -120,14 +121,14 @@ There are several different types of operating systems present. In this section,
 ## Batch OS
 Batch OS is the first operating system for second-generation computers. This OS does not directly interact with the computer. Instead, an operator takes up similar jobs and groups them together into a batch, and then these batches are executed one by one based on the first-come, first, serve principle.
 
-Advantages of Batch OS
+<b>Advantages of Batch OS</b>
 
 - Execution time taken for similar jobs is higher.
 - Multiple users can share batch systems.
 - Managing large works becomes easy in batch systems.
 - The idle time for a single batch is very less.
 
-Disadvantages of OS
+<b>Disadvantages of OS</b>
 
 - It is hard to debug batch systems.
 - If a job fails, then the other jobs have to wait for an unknown time till the issue is resolved.
@@ -140,7 +141,7 @@ Disadvantages of OS
 A distributed OS is a recent advancement in the field of computer technology and is utilized all over the world that too with great pace. In a distributed OS, various computers are connected through a single communication channel. These independent computers have their memory unit and CPU and are known as loosely coupled systems. The system processes can be of different sizes and can perform different functions. The major benefit of such a type of operating system is that a user can access files that are not present on his system but in another connected system. In addition, remote access is available to the systems connected to this network.
 
 
-Advantages of Distributed OS
+<b>Advantages of Distributed OS</b>
 
 - Failure of one system will not affect the other systems because all the computers are independent of each other.
 - The load on the host system is reduced.
@@ -148,7 +149,7 @@ Advantages of Distributed OS
 - As the workload and resources are shared therefore the calculations are performed at a higher speed.
 - Data exchange speed is increased with the help of electronic mail.
 
-Disadvantages of Distributed OS
+<b>Disadvantages of Distributed OS</b>
 
 - The setup cost is high.
 - Software used for such systems is highly complex.
@@ -161,13 +162,13 @@ Disadvantages of Distributed OS
 The multitasking OS is also known as the time-sharing operating system as each task is given some time so that all the tasks work efficiently.  This system provides access to a large number of users, and each user gets the time of CPU as they get in a single system. The tasks performed are given by a single user or by different users. The time allotted to execute one task is called a quantum, and as soon as the time to execute one task is completed, the system switches over to another task.
 
 
-Advantages of Multitasking OS
+<b>Advantages of Multitasking OS</b>
 
 - Each task gets equal time for execution.
 - The idle time for the CPU will be the lowest.
 - There are very few chances for the duplication of the software.
 
-Disadvantages of Multitasking OS
+<b>Disadvantages of Multitasking OS</b>
 
 - Processes with higher priority cannot be executed first as equal priority is given to each process or task.
 - Various user data is needed to be taken care of from unauthorized access.
@@ -179,14 +180,14 @@ Disadvantages of Multitasking OS
 ## Network OS
 Network operating systems are the systems that run on a server and manage all the networking functions. They allow sharing of various files, applications, printers, security, and other networking functions over a small network of computers like LAN or any other private network. In the network OS, all the users are aware of the configurations of every other user within the network, which is why network operating systems are also known as tightly coupled systems.
 
-Advantages of Network OS
+<b>Advantages of Network OS</b>
 
 - New technologies and hardware can easily upgrade the systems.
 - Security of the system is managed over servers.
 - Servers can be accessed remotely from different locations and systems.
 - The centralized servers are stable.
 
-Disadvantages of Network OS
+<b>Disadvantages of Network OS</b>
 
 - Server costs are high.
 - Regular updates and maintenance are required.
@@ -208,7 +209,7 @@ The soft real-time OS is the operating system for applications where time constr
 In a soft real-time system, an important task is prioritized over less important tasks, and this priority remains active until the completion of the task. Furthermore, a time limit is always set for a specific job, enabling short time delays for future tasks, which is acceptable. For Example, virtual reality, reservation systems, etc.  
 
 
-Advantages of Real-Time OS
+<b>Advantages of Real-Time OS</b>
 
 - It provides more output from all the resources as there is maximum utilization of systems.
 - It provides the best management of memory allocation.
@@ -217,7 +218,7 @@ Advantages of Real-Time OS
 - Shifting from one task to another takes very little time.
 
 
-Disadvantages of Real-Time OS
+<b>Disadvantages of Real-Time OS</b>
 
 - System resources are extremely expensive and are not so good.
 - The algorithms used are very complex.
@@ -234,7 +235,7 @@ Advantages of Mobile OS
 
 - It provides ease to users.
 
-Disadvantages of Mobile OS
+<b>Disadvantages of Mobile OS</b>
 
 - Some of mobile operating systems give poor battery quality to users.
 - Some of the mobile operating systems are not user-friendly.
