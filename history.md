@@ -13,7 +13,7 @@ Windows, Linux, and Android are examples of operating systems that enable the us
 Examples of popular operating systems include:
 - <b>Windows</b>: Microsoft Windows is the most popular desktop operating system, used by over 1 billion users worldwide. It has a wide range of features and applications, including the Office suite, gaming, and productivity tools.
 -<b> macOS</b>: macOS is the desktop operating system used by Apple Mac computers. It is known for its clean, user-friendly interface, and is popular among creative professionals.
--<b> Linux</b>: Linux is an open-source operating system that is available for free and can be customized to meet specific needs. It is used by developers and businesses, as well as individuals who prefer an open-source, customizable operating system.
+- <b> Linux</b>: Linux is an open-source operating system that is available for free and can be customized to meet specific needs. It is used by developers and businesses, as well as individuals who prefer an open-source, customizable operating system.
 
 
 ## History of Operating Systems
