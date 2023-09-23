@@ -297,233 +297,102 @@ An operating system performs several functions, including:
 
 
 
-<h2 class="wp-block-heading" id="operating-systems-market-share"><strong>Operating Systems Market Share </strong></h2>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="339" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20339'%3E%3C/svg%3E" alt="" class="wp-image-78327" data-lazy-srcset="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1024x339.png 1024w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-300x99.png 300w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-768x254.png 768w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1536x508.png 1536w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-696x230.png 696w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1068x353.png 1068w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1269x420.png 1269w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-150x50.png 150w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12.png 1840w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" data-lazy-src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1024x339.png" /><noscript><img decoding="async" width="1024" height="339" src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1024x339.png" alt="" class="wp-image-78327" srcset="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1024x339.png 1024w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-300x99.png 300w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-768x254.png 768w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1536x508.png 1536w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-696x230.png 696w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1068x353.png 1068w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-1269x420.png 1269w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12-150x50.png 150w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04144946/image-12.png 1840w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><figcaption class="wp-element-caption">Source: https://netmarketshare.com/ </figcaption></figure>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="342" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20342'%3E%3C/svg%3E" alt="" class="wp-image-78328" data-lazy-srcset="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1024x342.png 1024w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-300x100.png 300w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-768x257.png 768w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1536x513.png 1536w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-696x233.png 696w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1068x357.png 1068w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1256x420.png 1256w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-150x50.png 150w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13.png 1780w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" data-lazy-src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1024x342.png" /><noscript><img decoding="async" width="1024" height="342" src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1024x342.png" alt="" class="wp-image-78328" srcset="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1024x342.png 1024w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-300x100.png 300w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-768x257.png 768w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1536x513.png 1536w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-696x233.png 696w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1068x357.png 1068w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-1256x420.png 1256w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13-150x50.png 150w, https://d1m75rqqgidzqn.cloudfront.net/wp-data/2022/08/04145026/image-13.png 1780w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><figcaption class="wp-element-caption">Source: https://netmarketshare.com/ </figcaption></figure>
-
-
 
 <h2 class="wp-block-heading" class="wp-block-heading" id="choosing-the-right-operating-system"><strong>Choosing the Right Operating System</strong></h2>
 
-
-
 <p>When choosing an operating system, there are several factors to consider, including:</p>
-
-
-
 <ul>
 <li><strong>Cost:</strong> Some operating systems, such as Linux, are free, while others, such as Windows and macOS, must be purchased.</li>
-
-
-
 <li><strong>Compatibility:</strong> Some software and hardware may only work with certain operating systems, so choosing an operating system compatible with your needs is important.</li>
-
-
-
 <li><strong>Ease of use:</strong> Some operating systems, such as macOS and iOS, are known for their user-friendly interfaces, while others, such as Linux, may have a steeper learning curve.</li>
-
-
-
 <li><strong>Security: </strong>Some operating systems, such as macOS and iOS, are known for their robust security features, while others, such as Windows, may be more vulnerable to security threats.</li>
 </ul>
 
 
-
-<h2 class="wp-block-heading" id="operating-system-generations"><strong>Operating System Generations</strong></h2>
-
-
-
+## Operating System Generations 
 <p>Operating systems have evolved over time through different generations, each marked by distinct characteristics and advancements. Let&#8217;s explore these generations along with real-time examples:</p>
 
-
-
 <p><strong>1. First Generation:</strong></p>
-
-
-
 <ul>
 <li>Time Period: 1940s to early 1950s</li>
-
-
-
 <li>Characteristics: Vacuum tubes and machine language programming.</li>
-
-
-
 <li>Example: ENIAC (Electronic Numerical Integrator and Computer) &#8211; One of the earliest computers that used vacuum tubes for calculations.</li>
 </ul>
 
-
-
 <p><strong>2. Second Generation:</strong></p>
-
-
-
 <ul>
 <li>Time Period: Late 1950s to mid-1960s</li>
-
-
-
 <li>Characteristics: Transistors and assembly language programming.</li>
-
-
-
 <li>Example: IBM 1401 &#8211; Used transistors, enabling faster and more reliable processing than vacuum tubes.</li>
 </ul>
 
-
-
 <p><strong>3. Third Generation:</strong></p>
-
-
-
 <ul>
 <li>Time Period: Mid-1960s to mid-1970s</li>
-
-
-
 <li>Characteristics: Integrated circuits (ICs) and high-level programming languages.</li>
-
-
-
 <li>Example: IBM System/360 &#8211; Introduced a family of computers using compatible software and peripheral devices.</li>
 </ul>
 
-
-
 <p><strong>4. Fourth Generation:</strong></p>
-
-
-
 <ul>
 <li>Time Period: Late 1970s to 1990s</li>
-
-
-
 <li>Characteristics: Microprocessors, personal computers, and graphical user interfaces (GUI).</li>
-
-
 
 <li>Example: Apple Macintosh &#8211; Introduced GUI and mouse-driven interface, making computers more user-friendly.</li>
 </ul>
 
-
-
 <p><strong>5. Fifth Generation:</strong></p>
-
-
-
 <ul>
 <li>Time Period: 1990s to present (continuing)</li>
-
-
-
 <li>Characteristics: Artificial Intelligence (AI), natural language processing, and parallel processing.</li>
-
-
-
 <li>Example: IBM&#8217;s Deep Blue &#8211; Defeated world chess champion Garry Kasparov in 1997, showcasing the power of AI in complex decision-making.</li>
 </ul>
-
-
-
 <p><strong>6. Sixth Generation (Speculative):</strong></p>
-
-
-
 <ul>
 <li>Characteristics: Advanced AI, quantum computing, brain-computer interfaces.</li>
-
-
-
 <li>Example: Quantum computers being developed by companies like IBM and Google, potentially revolutionizing complex calculations.</li>
 </ul>
-
-
-
 <p><strong>7. Future Generations (Hypothetical):</strong></p>
-
-
-
 <ul>
 <li>Characteristics: Even more advanced AI, integration with human cognition, new computing paradigms.</li>
-
-
-
 <li>Example: A future generation could involve computers that seamlessly interface with the human brain, enabling direct thought-based interactions.</li>
 </ul>
 
-
-
 <p>These generations demonstrate how operating systems have evolved from basic machine-level instructions to sophisticated systems that can handle complex tasks and interactions with users. Each generation builds upon the achievements of the previous one, incorporating new technologies and capabilities.</p>
 
-
-
-<h2 class="wp-block-heading" id="advantages-of-operating-system"><strong>Advantages of Operating System</strong></h2>
-
-
+### Advantages of Operating System
 
 <p>There are several advantages of operating systems. We have listed some of them below: </p>
+- Ensuring correct and efficient use of the computer&#8217;s hardware.
+- Allowing different applications to run concurrently.
+- Managing files and folders.
+- Providing a user interface.
+- Managing security.
+- Managing resources.
+- Managing printing.
+- Providing a platform for software development.
 
-
-
-<ol>
-<li>Ensuring correct and efficient use of the computer&#8217;s hardware.</li>
-
-
-
-<li>Allowing different applications to run concurrently.</li>
-
-
-
-<li>Managing files and folders.</li>
-
-
-
-<li>Providing a user interface.</li>
-
-
-
-<li>Managing security.</li>
-
-
-
-<li>Managing resources.</li>
-
-
-
-<li>Managing printing.</li>
-
-
-
-<li>Providing a platform for software development.</li>
-</ol>
-
-
-
-<h2><strong>Disadvantages of Operating System</strong></h2>
-
-
+### Disadvantages of Operating System
 
 <p>There are several disadvantages of operating systems. We have listed some of them below:</p>
+- They can be complex and difficult to use. </li>
+- They can be expensive to purchase and maintain. </li>
+- They can be vulnerable to attacks from malicious users.</li>
 
 
 
-<ul>
-<li>They can be complex and difficult to use. </li>
 
+## Real-Time Operating System</strong></h2>
+# What is RTOS?
+<p>An operating system that can execute multi-threaded programmes and adhere to real-time deadlines is known as a &#8220;RTOS.&#8221; The majority of RTOSes incorporate device drivers, resource management, and schedulers. Remember that we don&#8217;t always mean &#8220;quick&#8221; when we talk about &#8220;deadlines.&#8221; Instead, this means that we can foresee when specific jobs will run before runtime.</p>
 
+<p>If you&#8217;re writing intricate embedded applications, an RTOS can be a great tool. They support task isolation and enable concurrent operation.</p>
 
-<li>They can be expensive to purchase and maintain. </li>
+### Applications of Real-Time Operating System
 
-
-
-<li>They can be vulnerable to attacks from malicious users.</li>
-</ul>
-
+- Defence application systems like RADAR.</span></li>
+- Airlines reservation system.
+- Systems that provide immediate updating.
+- Networked Multimedia Systems.
+- Air traffic control system.
+- Command Control Systems.
