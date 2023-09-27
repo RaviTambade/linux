@@ -41,7 +41,7 @@ The commands listed below are some of the most useful and most frequently used L
 1. wget - Direct download files from the internet
 1. ufw - Firewall command
 1. iptables - Base firewall for all other firewall utilities to interface with
-apt, pacman, yum, rpm - Package managers depending on the distro
+1. apt, pacman, yum, rpm - Package managers depending on the distro
 1. sudo - Command to escalate privileges in Linux
 1. cal - View a command-line calendar
 1. alias - Create custom shortcuts for your regularly used commands
