@@ -10,9 +10,10 @@ class="user">ls</code> command.  As an example, we will look at the <code
 class="user">bash</code> program which is located in the <code>/bin</code>
 directory:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">ls -l /bin/bash</code>
+```
+[me@linuxbox me]$ <code class="cmd">ls -l /bin/bash</code>
 -rwxr-xr-x 1 root root 1113504 Jun  6  2019 /bin/bash</div>
-
+```
 <p>Here we can see:</p>
 
 <ul>
