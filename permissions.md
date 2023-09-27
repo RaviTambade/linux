@@ -180,7 +180,7 @@ settings for directories:<br>
 <br>
 </p>
 
-<div style="overflow-x: auto"><table>
+<table>
   <tr>
     <th><strong>Value</strong></th>
     <th><strong>Meaning</strong></th>
@@ -227,7 +227,7 @@ settings for directories:<br>
     private from others.
     </td>
   </tr>
-</table></div>
+</table>
 
 <h2>Becoming the Superuser for a Short While</h2>
 
