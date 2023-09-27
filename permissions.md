@@ -76,7 +76,7 @@ wanted to keep the file private from others, we would:</p>
 beginning with "7" are used with programs (since they enable execution) and the
 rest are for other kinds of files.<br> <br> </p>
 
-<div style="overflow-x: auto"><table>
+<table>
   <tr>
     <td><strong>Value</strong></td>
     <td><strong>Meaning</strong></td>
@@ -159,7 +159,7 @@ rest are for other kinds of files.<br> <br> </p>
     owner wants to keep private.
     </td>
   </tr>
-</table></div>
+</table>
 
 <h2>Directory Permissions</h2>
 
