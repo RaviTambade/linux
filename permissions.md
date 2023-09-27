@@ -5,6 +5,20 @@ owner of the file, the members of a group of related users, and everybody else.
 Rights can be assigned to read a file, to write a file, and to execute a file
 (i.e., run the file as a program).</p>
 
+### What do Linux file permissions actually do?
+I've talked about how to view file permissions, who they apply to, and how to read what permissions are enabled or disabled. But what do these permissions actually do in practice?
+
+- <b>Read (r)</b>
+Read permission is used to access the file's contents. You can use a tool like cat or less on the file to display the file contents. You could also use a text editor like Vi or view on the file to display the contents of the file. Read permission is required to make copies of a file, because you need to access the file's contents to make a duplicate of it.
+
+- <b>Write (w)</b>
+Write permission allows you to modify or change the contents of a file. Write permission also allows you to use the redirect or append operators in the shell (> or >>) to change the contents of a file. Without write permission, changes to the file's contents are not permitted.
+
+- <b>Execute (x)</b>
+Execute permission allows you to execute the contents of a file. Typically, executables would be things like commands or compiled binary applications. However, execute permission also allows someone to run Bash shell scripts, Python programs, and a variety of interpreted languages.
+
+
+
 <p>To see the permission settings for a file, we can use the <code
 class="user">ls</code> command.  As an example, we will look at the <code
 class="user">bash</code> program which is located in the <code>/bin</code>
@@ -148,6 +162,18 @@ rest are for other kinds of files.<br> <br> </p>
     </td>
   </tr>
 </table>
+
+
+### How do you modify Linux file permissions?
+You can modify file and directory permissions with the chmod command, which stands for "change mode." To change file permissions in numeric mode, you enter chmod and the octal value you desire, such as 744, alongside the file name. To change file permissions in symbolic mode, you enter a user class and the permissions you want to grant them next to the file name. For example:
+
+```
+$ chmod ug+rwx example.txt
+$ chmod o+r example2.txt
+```
+<p>This grants read, write, and execute for the user and group, and only read for others. In symbolic mode, chmod u represents permissions for the user owner, chmod g represents other users in the file's group, chmod o represents other users not in the file's group. For all users, use chmod a.</p>
+
+<p>Maybe you want to change the user owner itself. You can do that with the chown command. Similarly, the chgrp command can be used to change the group ownership of a file.</p>
 
 <h2>Directory Permissions</h2>
 <p>The <b>chmod</b> command can also be used to control the
