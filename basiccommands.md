@@ -1,4 +1,5 @@
-
+#  Regular Linux Commands used  
+The commands listed below are some of the most useful and most frequently used Linux commands. 
 
 1. ls - The most frequently used command in Linux to list directories
 1. pwd - Print working directory command in Linux
@@ -53,7 +54,7 @@ apt, pacman, yum, rpm - Package managers depending on the distro
 
 
 
-p>Now let’s dive a little deeper into each of these commands and understand them in more detail. We already have a lot of existing articles for each of those individual commands. For your convenience, we’ll add links to all the existing articles, and continue to update the article as new topics are covered.</p>
+<p>Now let’s dive a little deeper into each of these commands and understand them in more detail.</p>
 <h2 id="the-ls-command-in-linux"><a href="#the-ls-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The ls command in Linux</a><a class="hash-anchor" href="#the-ls-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The ls command is used to list files and directories in the current working directory. This is going to be one of the most frequently used Linux commands you must know of.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/ls-command-default.png" alt="Ls Command Default"></p>
