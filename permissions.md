@@ -81,24 +81,20 @@ rest are for other kinds of files.<br> <br> </p>
     <td><strong>Value</strong></td>
     <td><strong>Meaning</strong></td>
   </tr>
-
   <tr>
     <td>
     <strong>777</strong>
     </td>
-
     <td>
     <strong>(rwxrwxrwx)</strong> No restrictions on
     permissions. Anybody may do anything.
     Generally not a desirable setting.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>755</strong>
     </td>
-
     <td>
     <strong>(rwxr-xr-x)</strong> The file's owner may
     read, write, and execute the file. All others
@@ -107,12 +103,10 @@ rest are for other kinds of files.<br> <br> </p>
     users.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>700</strong>
     </td>
-
     <td>
     <strong>(rwx------)</strong> The file's owner may
     read, write, and execute the file. Nobody
@@ -121,23 +115,19 @@ rest are for other kinds of files.<br> <br> </p>
     must be kept private from others.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>666</strong>
     </td>
-
     <td>
     <strong>(rw-rw-rw-)</strong> All users may read
     and write the file.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>644</strong>
     </td>
-
     <td>
     <strong>(rw-r--r--)</strong> The owner may read
     and write a file, while all others may only
@@ -146,12 +136,10 @@ rest are for other kinds of files.<br> <br> </p>
     owner may change.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>600</strong>
     </td>
-
     <td>
     <strong>(rw-------)</strong> The owner may read
     and write a file. All others have no rights.
@@ -162,7 +150,6 @@ rest are for other kinds of files.<br> <br> </p>
 </table>
 
 <h2>Directory Permissions</h2>
-
 <p>The <b>chmod</b> command can also be used to control the
 access permissions for directories. Again, we can use the octal notation to set
 permissions, but the meaning of the r, w, and x attributes is different:</p>
@@ -174,23 +161,19 @@ permissions, but the meaning of the r, w, and x attributes is different:</p>
   deleted, or renamed if the x attribute is also set.</li>
   <li><b>x</b> - Allows a directory to be entered (i.e. cd dir).</li>
 </ul>
-
 <p>Here are some useful
 settings for directories:<br>
 <br>
 </p>
-
 <table>
   <tr>
     <th><strong>Value</strong></th>
     <th><strong>Meaning</strong></th>
   </tr>
-
   <tr>
     <td>
     <strong>777</strong>
     </td>
-
     <td>
     <strong>(rwxrwxrwx)</strong> No restrictions on
     permissions. Anybody may list files, create
@@ -199,12 +182,10 @@ settings for directories:<br>
     setting.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>755</strong>
     </td>
-
     <td>
     <strong>(rwxr-xr-x)</strong> The directory owner
     has full access. All others may list the
@@ -213,12 +194,10 @@ settings for directories:<br>
     that you wish to share with other users.
     </td>
   </tr>
-
   <tr>
     <td>
     <strong>700</strong>
     </td>
-
     <td>
     <strong>(rwx------)</strong> The directory owner
     has full access. Nobody else has any rights.
