@@ -68,7 +68,9 @@ possible permissions settings. For example, if we wanted to set
 <code>some_file</code> to have read and write permission for the owner, but
 wanted to keep the file private from others, we would:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">chmod 600 some_file</code></div>
+```
+[me@linuxbox me]$ chmod 600 some_file
+```
 
 <p>Here is a table of numbers that covers all the common settings. The ones
 beginning with "7" are used with programs (since they enable execution) and the
@@ -161,7 +163,7 @@ rest are for other kinds of files.<br> <br> </p>
 
 <h2>Directory Permissions</h2>
 
-<p>The <code class="user">chmod</code> command can also be used to control the
+<p>The <b>chmod</b> command can also be used to control the
 access permissions for directories. Again, we can use the octal notation to set
 permissions, but the meaning of the r, w, and x attributes is different:</p>
 
@@ -170,7 +172,7 @@ permissions, but the meaning of the r, w, and x attributes is different:</p>
   if the x attribute is also set.</li>
   <li><b>w</b> - Allows files within the directory to be created,
   deleted, or renamed if the x attribute is also set.</li>
-  <li><b>x</b> - Allows a directory to be entered (i.e. <code class="user">cd dir</code>).</li>
+  <li><b>x</b> - Allows a directory to be entered (i.e. cd dir).</li>
 </ul>
 
 <p>Here are some useful
@@ -242,33 +244,37 @@ number of tasks. To become the superuser, simply
 type the <code class="user">su</code> command. You will
 be prompted for the superuser's password:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">su</code>
+```
+[me@linuxbox me]$ su
 Password:
-[root@linuxbox me]#</div>
+[root@linuxbox me]#
+```
 
-<p>After executing the <code class="user">su</code> command, we have a new
-shell session as the superuser. To exit the superuser session, type <code
-class="user">exit</code> and we will return to your previous session.</p>
+<p>After executing the <b>su</b> command, we have a new
+shell session as the superuser. To exit the superuser session, type <b>exit</b> and we will return to your previous session.</p>
 
 <p>In most modern distributions, an alternate method is used.  Rather than
-using <code class="user">su</code>, these systems employ the <code
-class="user">sudo</code> command instead.  With <code class="user">sudo</code>,
+using <b>su</b>, these systems employ the <b>sudo</b> command instead.  With <b>sudo</b>,
 one or more users are granted superuser privileges on an as needed basis.  To
 execute a command as the superuser, the desired command is simply preceded
-with the <code class="user">sudo</code> command.  After the command is entered,
+with the sudo command.  After the command is entered,
 the user is prompted for the their own password rather than the superuser's:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">sudo some_command</code>
+```
+[me@linuxbox me]$ sudo some_command
 Password for me:
-[me@linuxbox me]$</div>
+[me@linuxbox me]$
+```
 
 <p>In fact, modern distributions don't even set the root account password thus
 making it impossible to log in as the root user. A root shell is still possible
 with <code class="user">sudo</code> by using the "-i" option: </p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">sudo -i</code>
+```
+[me@linuxbox me]$sudo -i
 Password for me:
-root@linuxbox:~#</div>
+root@linuxbox:~#
+```
 
 <h2>Changing File Ownership</h2>
 
@@ -276,13 +282,16 @@ root@linuxbox:~#</div>
 class="user">chown</code> command. Here's an example: Suppose we wanted to
 change the owner of <code>some_file</code> from "me" to "you". We could:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">sudo chown you some_file</code></div>
+```
+[me@linuxbox me]$ sudo chown you some_file
+```
+
 
 <p>Notice that in order to change the owner of a file, we must have superuser
-privileges. To do this, our example employed the <code class="user">sudo</code>
-command to execute <code class= "user">chown</code>.</p>
+privileges. To do this, our example employed the <b>sudo</b>
+command to execute  <b>chown</b>.</p>
 
-<p><code class="user">chown</code> works the same way on directories as it does
+<p> <b>chown</b> works the same way on directories as it does
 on files.</p>
 
 <h2>Changing Group Ownership</h2>
@@ -290,9 +299,11 @@ on files.</p>
 <p>The group ownership of a file or directory may be changed with <code
 class="user">chgrp</code>. This command is used like this:</p>
 
-<div class="display">[me@linuxbox me]$ <code class="cmd">chgrp new_group some_file</code></div>
+```
+[me@linuxbox me]$ chgrp new_group some_file
+```
+
 
 <p>In the example above, we changed the group ownership of
 <code>some_file</code> from its previous group to "new_group". We must be the
-owner of the file or directory to perform a <code class=
-"user">chgrp</code>.</p>
+owner of the file or directory to perform a <b>chgrp</b>.</p>
