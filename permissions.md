@@ -11,8 +11,8 @@ class="user">bash</code> program which is located in the <code>/bin</code>
 directory:</p>
 
 ```
-[me@linuxbox me]$ <code class="cmd">ls -l /bin/bash</code>
--rwxr-xr-x 1 root root 1113504 Jun  6  2019 /bin/bash</div>
+[me@linuxbox me]$ ls -l /bin/bash
+-rwxr-xr-x 1 root root 1113504 Sept  27  2023 /bin/bash
 ```
 <p>Here we can see:</p>
 
