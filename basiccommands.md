@@ -58,7 +58,7 @@ p>Now let’s dive a little deeper into each of these commands and understand th
 <p>The ls command is used to list files and directories in the current working directory. This is going to be one of the most frequently used Linux commands you must know of.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/ls-command-default.png" alt="Ls Command Default"></p>
 <p>As you can see in the above image, using the command by itself without any arguments will give us an output with all the files and directories in the directory. The command offers a lot of flexibility in terms of displaying the data in the output.</p>
-<p>Learn more about the <a href="/community/tutorials/ls-command-in-linux-unix">ls command (link to full article)</a></p>
+
 <h2 id="the-pwd-command-in-linux"><a href="#the-pwd-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The pwd command in Linux</a><a class="hash-anchor" href="#the-pwd-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The pwd command allows you to print the current working directory on your terminal. It’s a very basic command and solves its purpose very well.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/pwd-default-output.png" alt="Pwd Default Output"></p>
@@ -75,7 +75,7 @@ p>Now let’s dive a little deeper into each of these commands and understand th
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/mkdir-default.png" alt="Mkdir Default"></p>
 <p>As you can see in the above screenshot, we created the JournalDev directory with just this simple command.</p>
-<p>Learn more about the <a href="/community/tutorials/mkdir-command-linux-unix">mkdir command (Link to article)</a></p>
+
 <h2 id="the-cp-and-mv-commands"><a href="#the-cp-and-mv-commands" onclick="navigator.clipboard.writeText(this.href);">The cp and mv commands</a><a class="hash-anchor" href="#the-cp-and-mv-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The cp and mv commands are equivalent to the copy-paste and cut-paste in Windows. But since Linux doesn’t really have a command for renaming files, we also make use of the mv command to rename files and folders.</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># cp &lt;source&gt; &lt;destination&gt;</span>
@@ -86,7 +86,7 @@ p>Now let’s dive a little deeper into each of these commands and understand th
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/mv-command-default.png" alt="Mv Command Linux commands you should know"></p>
 <p>In the above case, since we were moving the file within the same directory, it acted as rename. The file name is now changed.</p>
-<p>Learn more about the <a href="/community/tutorials/cp-command-in-linux-unix">cp command (Link to article)</a> and <a href="/community/tutorials/linux-mv-command-usage-with-examples">mv command (Link to article)</a>.</p>
+
 <h2 id="the-rm-command-in-linux"><a href="#the-rm-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The rm command in Linux</a><a class="hash-anchor" href="#the-rm-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>In the previous section, we deleted the Sample-Copy file. The rm command is used to delete files and folders and is one of the important Linux commands you must know.</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># rm &lt;file name&gt;</span>
@@ -116,7 +116,7 @@ root@ubuntu:~<span class="token comment"># echo &lt;Text to print on terminal&gt
 <p>The simple way to do this is with the use of the pipe operator (<strong>|</strong>).</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># cat /boot/grub/grub.cfg  | less</span>
 </code></pre>
-<p>Learn more about the <a href="/community/tutorials/linux-echo-command-examples">echo command(Link to article)</a> and <a href="/community/tutorials/linux-cat-command-examples">cat command(Link to article)</a>.</p>
+
 <h2 id="the-man-command-in-linux"><a href="#the-man-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The man command in Linux</a><a class="hash-anchor" href="#the-man-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The man command is a very useful Linux command you must know. When working with Linux, the packages that we download can have a lot of functionality. Knowing it all is impossible.</p>
 <p>The man pages offer a really efficient way to know the functionality of pretty much all the packages that you can download using the package managers in your Linux distro.</p>
@@ -145,13 +145,13 @@ root@ubuntu:~<span class="token comment"># unzip &lt;archive name&gt;</span>
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/zip-unzip-commands.png" alt="Zip Unzip Commands"></p>
 <p>Since we already have those files in the same directory, the unzip command prompts us before overwriting those files.</p>
-<p>Learn more about the <a href="/community/tutorials/linux-tar-command">tar command (Link to article)</a> and <a href="/community/tutorials/zip-unzip-linux">zip and unzip commands (Link to article)</a></p>
+
 <h2 id="the-grep-command-in-linux"><a href="#the-grep-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The grep command in Linux</a><a class="hash-anchor" href="#the-grep-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>If you wish to search for a specific string within an output, the grep command comes into the picture. We can pipe (<strong>|</strong>) the output to the grep command and extract the required string.</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># &lt;Any command with output&gt; | grep &quot;&lt;string to find&gt;&quot;</span>
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/grep-command-example.png" alt="Grep Command Example"></p>
-<p>This was a simple demonstration of the command. Learn more about the <a href="/community/tutorials/grep-command-in-linux-unix">grep command (Link to article)</a></p>
+
 <h2 id="the-head-and-tail-commands"><a href="#the-head-and-tail-commands" onclick="navigator.clipboard.writeText(this.href);">The head and tail commands</a><a class="hash-anchor" href="#the-head-and-tail-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>When outputting large files, the head and the tail commands come in handy. I’ve created a file named “Words” with a lot of words arranged alphabetically in it. The head command will output the first 10 lines from the file, while the tail command will output the last 10. This also includes any blank lines and not just lines with text.</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># head &lt;file name&gt;</span>
@@ -161,7 +161,7 @@ root@ubuntu:~<span class="token comment"># tail &lt;file name&gt;</span>
 <p>As you can see, the head command showed 10 lines from the top of the file.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/tail-command.png" alt="Tail Command Linux commands you should know"></p>
 <p>The tail command outputted the bottom 10 lines from the file.</p>
-<p>Learn more about the <a href="/community/tutorials/linux-tail-command-examples">tail command(Link to article)</a></p>
+
 <h2 id="the-diff-comm-and-cmp-commands"><a href="#the-diff-comm-and-cmp-commands" onclick="navigator.clipboard.writeText(this.href);">The diff, comm, and cmp commands</a><a class="hash-anchor" href="#the-diff-comm-and-cmp-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>Linux offers multiple commands to compare files. The diff, comm, and cmp commands compare differences and are some of the most useful Linux commands you must know. Let’s see the default outputs for all the three commands.</p>
 <pre class="language-bash"><code>root@ubuntu:~<span class="token comment"># diff &lt;file 1&gt; &lt;file 2&gt;</span>
@@ -189,12 +189,12 @@ root@ubuntu:~<span class="token comment"># tail &lt;file name&gt;</span>
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/export-environment-variables.png" alt="Export Environment Variables"></p>
 <p>If for some reason, your bash prompt doesn’t update, just type in <strong>bash</strong> and you should see the updated terminal prompt.</p>
-<p>Learn more about the <a href="/community/tutorials/export-command-linux">export command(Link to article)</a></p>
+
 <h2 id="the-ssh-command-in-linux"><a href="#the-ssh-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The ssh command in Linux</a><a class="hash-anchor" href="#the-ssh-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The ssh command allows us to connect to an external machine on the network with the use of the ssh protocol. The basic syntax of the ssh command is:</p>
 <pre class="language-bash"><code>root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token function">ssh</span> username@hostname
 </code></pre>
-<p>Learn more about <a href="/community/tutorials/ssh-command-linux-unix">ssh command(Link to article)</a></p>
+
 <h2 id="the-service-command-in-linux"><a href="#the-service-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The service command in Linux</a><a class="hash-anchor" href="#the-service-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The service command in Linux is used for starting and stopping different services within the operating system. The basic syntax of the command is as below.</p>
 <pre class="language-bash"><code>root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token function">service</span> <span class="token function">ssh</span> status
@@ -217,7 +217,7 @@ root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token 
 <p>But if you do not know the process ID and just want to kill the process with the name, you can make use of the killall command.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/killall-command.png" alt="Killall Command linux commands you should know"></p>
 <p>You will notice that PID 14490 stayed active. That is because both the times, I killed the sleep process.</p>
-<p>Learn more about <a href="/community/tutorials/linux-ps-command">ps command (Link to article)</a>.</p>
+
 <h2 id="the-df-and-mount-commands"><a href="#the-df-and-mount-commands" onclick="navigator.clipboard.writeText(this.href);">The df and mount commands</a><a class="hash-anchor" href="#the-df-and-mount-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>When working with Linux, the df and mount commands are very efficient utilities to mount filesystems and get details of the file system.</p>
 <p>When I say mount, it means that we’ll connect the device to a folder so we can access the files from our filesystem. The default syntax to mount a filesystem is below:</p>
@@ -227,7 +227,7 @@ root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token 
 <p>In the above case, <strong>/dev/cdrom</strong> is the device that needs to be mounted. Usually, a mountable device is found inside the /dev folder. <strong>/mnt</strong> is the destination folder to mount the device to. You can change it to any folder you want but I’ve used /mnt as it’s pretty much a system default folder for mounting devices.</p>
 <p>To see the mounted devices and get more information about them, we make use of the df command. Just typing <strong>df</strong> will give us the data in bytes which is not readable. So we’ll use the <strong>-h</strong> parameter to make the data human-readable.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/df-command.png" alt="Df Command linux commands you should know"></p>
-<p>Learn more about the <a href="/community/tutorials/linux-df-command-check-disk-space">df command(Link to article)</a></p>
+
 <h2 id="the-chmod-and-chown-commands"><a href="#the-chmod-and-chown-commands" onclick="navigator.clipboard.writeText(this.href);">The chmod and chown commands</a><a class="hash-anchor" href="#the-chmod-and-chown-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>The chmod and chown commands give us the functionality to change the file permissions and file ownership are the most important Linux commands you should know.</p>
 <p>The main difference between the functions of the two commands is that the chmod command allows changing file permissions, while chown allows us to change the file owners.</p>
@@ -239,7 +239,7 @@ root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token 
 <p>In the above example, we’re adding executable permissions to the <a href="http://loop.sh">loop.sh</a> file with the <strong>chmod command</strong>. Apart from that, with the <strong>chown command</strong>, we’ve made it accessible only by root user and users within the root group.</p>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/chown-command.png" alt="Chown Command linux commands you should know"></p>
 <p>As you will notice, the <strong>root root</strong> part is now changed to <strong>www-data</strong> which is the new user who has full file ownership.</p>
-<p>Learn more about the <a href="/community/tutorials/linux-chmod-command-examples">chmod command(Link to article)</a> and <a href="/community/tutorials/linux-chown-command-examples">chown command (Link to article)</a></p>
+
 <h2 id="the-ifconfig-and-traceroute-commands"><a href="#the-ifconfig-and-traceroute-commands" onclick="navigator.clipboard.writeText(this.href);">The ifconfig and traceroute commands</a><a class="hash-anchor" href="#the-ifconfig-and-traceroute-commands" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>Moving on to the networking section in Linux, we come across the ifconfig and traceroute commands which will be frequently used if you manage a network.</p>
 <p>The ifconfig command will give you the list of all the network interfaces along with the IP addresses, MAC addresses and other information about the interface.</p>
@@ -252,7 +252,7 @@ root@ubuntu:~ --<span class="token operator">&gt;&gt;</span> <span class="token 
 </code></pre>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2020/01/traceroute-command.png" alt="Traceroute Command linux commands to know"></p>
 <p>Now obviously, localhost is just one hop (which is the network interface itself). You can try this same command with any other domain name or IP address to see all the routers that your data packets pass through to reach the destination.</p>
-<p>Learn more about the <a href="/community/tutorials/linux-ifconfig-command-examples">ifconfig command(Link to article)</a></p>
+
 <h2 id="the-wget-command-in-linux"><a href="#the-wget-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The wget command in Linux</a><a class="hash-anchor" href="#the-wget-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>If you want to download a file from within the terminal, the wget command is one of the handiest command-line utilities available. This will be one of the important Linux commands you should know when working with source files.</p>
 <p>When you specify the link for download, it has to directly be a link to the file. If the file cannot be accessed by the wget command, it will simply download the webpage in HTML format instead of the actual file that you wanted.</p>
@@ -286,7 +286,7 @@ root@ubuntu:~<span class="token comment"># ufw allow 80</span>
 Password: 
 </code></pre>
 <p>Just add the word <strong>sudo</strong> before any command that you need to run with escalated privileges and that’s it. It’s very simple to use, but can also be an added security risk if a malicious user gains access to a sudoer.</p>
-<p>Learn more about the <a href="/community/tutorials/sudo-command-in-linux">sudo command (Link to article)</a></p>
+
 <h2 id="the-cal-command-in-linux"><a href="#the-cal-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The cal command in Linux</a><a class="hash-anchor" href="#the-cal-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>Ever wanted to view the calendar in the terminal? Me neither! But there apparently are people who wanted it to happen and well here it is.</p>
 <p>The <strong>cal</strong> command displays a well-presented calendar on the terminal. Just enter the word cal on your terminal prompt.</p>
@@ -304,7 +304,7 @@ root@ubuntu:~<span class="token comment"># alias rmd=&quot;rm -r&quot;</span>
 </code></pre>
 <p>Now every time you enter <strong>lsl</strong> or <strong>rmd</strong> in the terminal, you’ll receive the output that you’d have received if you had used the full commands.</p>
 <p>The examples here are for really small commands that you can still type by hand every time. But in some situations where a command has too many arguments that you need to type, it’s best to create a shorthand version of the same.</p>
-<p>Learn more about <a href="/community/tutorials/linux-alias-command">alias command (LInk to article)</a></p>
+
 <h2 id="the-dd-command-in-linux"><a href="#the-dd-command-in-linux" onclick="navigator.clipboard.writeText(this.href);">The dd command in Linux</a><a class="hash-anchor" href="#the-dd-command-in-linux" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a></h2>
 <p>This command was created to convert and copy files from multiple file system formats. In the current day, the command is simply used to create bootable USB for Linux but there still are some things important you can do with the command.</p>
 <p>For example, if I wanted to back up the entire hard drive as is to another drive, I’ll make use of the dd command.</p>
