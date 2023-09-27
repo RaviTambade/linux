@@ -37,7 +37,7 @@ interpreted. It consists of a character indicating the file type, followed by
 three sets of three characters that convey the reading, writing and execution
 permission for the owner, group, and everybody else.<br><br>
 
-<img src="images/file_permissions.png" width="660" height="386"
+<img src="/images/permissions/file_permissions.png" width="660" height="386"
 alt="permissions diagram"><br><br></p>
 
 <h2>chmod</h2>
