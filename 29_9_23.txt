@@ -1,0 +1,102 @@
+
+
+Create TFLStore Web folder
+Add public folder as subfolder
+Add few basic html pages
+Add images folder inside public folder
+Add few images (.jpg,.png file) inside images folder
+
+To Build web application we need to download a framework express
+To host Web application we need to write few lines of code into  server.js
+
+C++ application
+
+   include header files
+	#include <iostream>-----------from C++
+	#include <string.h> ------------from C
+
+	// import classes from library sothat we can use in CPP
+
+
+	using  namespace std;
+
+
+Communication:
+	source----------------  Medium-----------------destination
+	Server--------------------link-----------------------client
+			(Connectivity)
+	Server machine----- physical link------------client machine
+		                logical link 
+			protocol
+			Connection oriented protocol (TCP)
+			Connectionless protocol (UDP)  
+                                                                                                  (HTTP)
+	Web app---------  logical protocol  ----------------------browser
+
+	SDK: Software Development Kit
+		library + tools
+
+in node js
+	//C: Static Library ( .lib, .h)---------------------------------------------.lib library
+	//CPP: namespace-----------#include<iostream>-------------------  .lib library
+						 	 .dll file
+
+			          using
+	//java: package----------------import java.io.*------------------------ .class
+							.jar file
+	//node: module----------------require-----------------------------------node_modules
+							 .js
+
+	//C#: namespace------------- using---------------------------------------.dll
+
+
+	Node JS:
+
+	FullStack: is a collection frameworks to build online Applications
+
+		MEAN 
+		MERN
+		MEVN
+
+	Node Js Web Programmin
+			basic library--------http
+			Web Application Framework------express
+
+	var http=require('http');
+	
+	//Callback function
+	//Handler, Receiver, Callback function
+	//Event Handler
+
+	var onReceiveServer=function(req, res){
+	
+	  //request processing
+
+	  //generating  HTTP response
+	  res.write(" <h1> IET , CDAC </h1> ");
+	  res.end();
+
+	};
+	
+	//Register callback function at the time of 
+	//creating HTTP server
+	var app=http.createServer( onReceiveServer);
+	
+	app.listen(9000);
+
+	
+
+Library:
+	expressjs --------Web Framework
+server.js
+Web pages
+
+	index.html
+	aboutus.html
+	contact.html
+	services.html
+
+Images
+	product.jpg
+	nature.jpg,etc
+
