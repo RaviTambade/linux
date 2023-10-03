@@ -6,7 +6,7 @@ Linux is an operating system that has been around since the mid-1990s. It has ga
 ## What Is Shell?
 In general computing, a shell is a program that acts as an interface to users, for the operating system. That is, it exposes the operating system to human users. These shells could either be command-line interfaces (CLI) or graphical user interfaces (GUI). 
 
-<img src="/images/LinuxShell.jpg">
+<img src="/images/LinuxShell.jpg"/>
 
 ## What Is Linux Shell? 
 
