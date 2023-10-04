@@ -265,4 +265,3 @@ This is a fixed priority algorithm and follows the philosophy that higher priori
 
 ###### b. Earliest Deadline First Algorithm(EDF)
 This algorithm takes the approach that tasks with the closest deadlines should be meted out the highest priorities. Likewise, the task with the latest deadline has the lowest priority. Due to this approach, the processor idle time is zero and so 100% utilization can be achieved.
-\
