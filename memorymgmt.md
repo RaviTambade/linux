@@ -4,17 +4,22 @@ Memory management in OS is a technique of managing the functionality of primary 
 
 In operating systems, memory allocation refers to the process of assigning memory to different processes or programs running on a computer system. There are two types of memory allocation techniques that operating systems use: contiguous and non-contiguous memory allocation. In contiguous memory allocation, memory is assigned to a process in a contiguous block. In non-contiguous memory allocation, memory is assigned to a process in non-adjacent blocks.
 
-Contiguous Memory Allocation
+## Contiguous Memory Allocation
 Contiguous memory allocation is a technique where the operating system allocates a contiguous block of memory to a process. This memory is allocated in a single, continuous chunk, making it easy for the operating system to manage and for the process to access the memory. Contiguous memory allocation is suitable for systems with limited memory sizes and where fast access to memory is important.
 
 
-Non-contiguous Memory Allocation
+## Non-contiguous Memory Allocation
+
 Non-contiguous memory allocation, on the other hand, is a technique where the operating system allocates memory to a process in non-contiguous blocks. The blocks of memory allocated to the process need not be contiguous, and the operating system keeps track of the various blocks allocated to the process. Non-contiguous memory allocation is suitable for larger memory sizes and where efficient use of memory is important.
 
-Non-contiguous memory allocation can be done in two ways
-Paging − In paging, the memory is divided into fixed-size pages, and each page is assigned to a process. This technique is more efficient as it allows the allocation of only the required memory to the process.
+Non-contiguous memory allocation can be done in two ways:
 
-Segmentation − In segmentation, the memory is divided into variable-sized segments, and each segment is assigned to a process. This technique is more flexible than paging but requires more overhead to keep track of the allocated segments.
+- <b>Paging</b> − In paging, the memory is divided into fixed-size pages, and each page is assigned to a process. This technique is more efficient as it allows the allocation of only the required memory to the process.
+
+- <b>Segmentation</b> − In segmentation, the memory is divided into variable-sized segments, and each segment is assigned to a process. This technique is more flexible than paging but requires more overhead to keep track of the allocated segments.
+
+
+## Difference between contigious and non contigious memory
 
 <table class="table table-bordered">
 <tbody><tr>
@@ -58,7 +63,6 @@ Segmentation − In segmentation, the memory is divided into variable-sized segm
 <td><p style="text-align: left; ">Requires additional overhead and can be more complicated to manage</p></td>
 </tr>
 </tbody></table>
-
 
 ## Paging
 In an operating system, memory management refers to dividing the memory among the various processes. The fundamental goal of memory management is to make optimal use of memory by minimizing internal and external fragmentation. One such algorithm for memory management techniques is paging.
