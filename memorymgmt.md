@@ -71,6 +71,7 @@ Dirty bit: This bit is also known as the "Modified bit." This bit indicates whet
 ### Understanding Paging In Operating System In Detail
 
 <img src="/images/memory/paging/paging_03.jpg"/>
+
 ##### Page Table Types
 
 Following are the two most used Page Table types:
