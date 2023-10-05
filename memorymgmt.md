@@ -2,6 +2,63 @@
 
 Memory management in OS is a technique of managing the functionality of primary memory, used for achieving better concurrency, system performance, and memory utilization. Memory management keeps track of the status of each memory location, whether it is allocated or free.
 
+In operating systems, memory allocation refers to the process of assigning memory to different processes or programs running on a computer system. There are two types of memory allocation techniques that operating systems use: contiguous and non-contiguous memory allocation. In contiguous memory allocation, memory is assigned to a process in a contiguous block. In non-contiguous memory allocation, memory is assigned to a process in non-adjacent blocks.
+
+Contiguous Memory Allocation
+Contiguous memory allocation is a technique where the operating system allocates a contiguous block of memory to a process. This memory is allocated in a single, continuous chunk, making it easy for the operating system to manage and for the process to access the memory. Contiguous memory allocation is suitable for systems with limited memory sizes and where fast access to memory is important.
+
+
+Non-contiguous Memory Allocation
+Non-contiguous memory allocation, on the other hand, is a technique where the operating system allocates memory to a process in non-contiguous blocks. The blocks of memory allocated to the process need not be contiguous, and the operating system keeps track of the various blocks allocated to the process. Non-contiguous memory allocation is suitable for larger memory sizes and where efficient use of memory is important.
+
+Non-contiguous memory allocation can be done in two ways
+Paging − In paging, the memory is divided into fixed-size pages, and each page is assigned to a process. This technique is more efficient as it allows the allocation of only the required memory to the process.
+
+Segmentation − In segmentation, the memory is divided into variable-sized segments, and each segment is assigned to a process. This technique is more flexible than paging but requires more overhead to keep track of the allocated segments.
+
+<table class="table table-bordered">
+<tbody><tr>
+<th><p style="text-align: center; ">Aspect</p></th>
+<th><p style="text-align: center; ">Contiguous Memory Allocation</p></th>
+<th><p style="text-align: center; ">Non-Contiguous Memory Allocation</p></th>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Method</p></td>
+<td><p style="text-align: left; ">Allocates memory in a contiguous block to a process</p></td>
+<td><p style="text-align: left; ">Allocates memory to a process in non-contiguous blocks</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Block Size</p></td>
+<td><p style="text-align: left; ">Memory allocated in a single, continuous chunk</p></td>
+<td><p style="text-align: left; ">Memory allocated in noncontiguous blocks of varying sizes</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Management</p></td>
+<td><p style="text-align: left; ">Easy to manage by the operating system</p></td>
+<td><p style="text-align: left; ">Requires additional overhead and can be more complicated to manage</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Memory Usage</p></td>
+<td><p style="text-align: left; ">May result in memory wastage and external fragmentation</p></td>
+<td><p style="text-align: left; ">Efficient use of memory and reduces fragmentation within memory blocks</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Suitable For</p></td>
+<td><p style="text-align: left; ">Systems with limited amounts of memory and fast access to memory is important</p></td>
+<td><p style="text-align: left; ">Larger memory sizes and systems that require more efficient use of memory</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Advantages</p></td>
+<td><p style="text-align: left; ">Simple and efficient technique for memory management</p></td>
+<td><p style="text-align: left; ">More flexible and efficient technique for larger memory sizes and systems that require more efficient use of memory</p></td>
+</tr>
+<tr>
+<td><p style="text-align: left; ">Disadvantages</p></td>
+<td><p style="text-align: left; ">Can be inflexible and result in memory wastage and fragmentation</p></td>
+<td><p style="text-align: left; ">Requires additional overhead and can be more complicated to manage</p></td>
+</tr>
+</tbody></table>
+
 
 ## Paging
 In an operating system, memory management refers to dividing the memory among the various processes. The fundamental goal of memory management is to make optimal use of memory by minimizing internal and external fragmentation. One such algorithm for memory management techniques is paging.
