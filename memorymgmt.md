@@ -196,37 +196,37 @@ Paging allows you to save a process in memory in a non-contiguous manner and it 
 
 ### Frequently Asked Questions
 
-- Q. Describe the paging technique.
+<b>Q. Describe the paging technique.</b>
 Paging is a memory management employed by operating systems to organize memory and assign memory to processes. Processes are allotted memory in terms of pages. Pages are fixed-size blocks of memory used in paging. Paging includes transferring operations in the form of pages from the secondary storage into the primary memory.
 
-- Q. What are the logical pages in paging?
+<b>Q. What are the logical pages in paging?</b>
 In paging, logical pages are fixed-sized blocks of logical or secondary memory. Logical pages represent a unit of information transfer between main memory and secondary storage. The logical memory is divided into blocks of the same size called pages. When a process is about to run, its pages are loaded from the backup store into any free memory frames. The page table, which is utilized by the memory management unit to convert logical addresses into physical addresses, keeps the mapping between logical pages and physical page frames.
 
-- Q. How does paging contribute to memory protection in a computer system?
+<b>Q. How does paging contribute to memory protection in a computer system?</b>
 Paging contributes to memory protection in a computer system in the following ways:
 
-Protection bits: Through the association of protection bits with each page, paging enables memory protection and these bits identify the protection on the appropriate page and are linked to each item in the page table. The protection bits can be used to control access to pages and prevent unauthorized access to memory.
+- Protection bits: Through the association of protection bits with each page, paging enables memory protection and these bits identify the protection on the appropriate page and are linked to each item in the page table. The protection bits can be used to control access to pages and prevent unauthorized access to memory.
 
-Valid/Invalid bit: The paging process should be protected by using the concept of insertion of an additional bit called Valid/Invalid bit. This bit is used to indicate whether a page is currently in memory or not. If the bit is set to valid, the page is in memory, and if it is set to invalid, the page is not in memory.
+- Valid/Invalid bit: The paging process should be protected by using the concept of insertion of an additional bit called Valid/Invalid bit. This bit is used to indicate whether a page is currently in memory or not. If the bit is set to valid, the page is in memory, and if it is set to invalid, the page is not in memory.
 
-Easy-to-use memory management algorithm: External fragmentation is unnecessary because of the simple-to-use memory management mechanism of paging. It is a sensible idea and enables quicker access to data.
+- Easy-to-use memory management algorithm: External fragmentation is unnecessary because of the simple-to-use memory management mechanism of paging. It is a sensible idea and enables quicker access to data.
 
-- Q. Mention some advantages of paging.
+<b>Q. Mention some advantages of paging.</b>
 Some advantages of paging are:
 
-Easy-to-use memory management algorithm: Paging is an easy-to-use memory management algorithm that allows for faster access to data and is a logical concept.
-Protection and sharing of memory: Paging allows for the protection and sharing of memory between processes, as each process has its page table that maps its logical address.
-Swapping is easy between equal-sized pages and page frames: As pages and frames are of equal size, swapping between them becomes very easy.
+- Easy-to-use memory management algorithm: Paging is an easy-to-use memory management algorithm that allows for faster access to data and is a logical concept.
+- Protection and sharing of memory: Paging allows for the protection and sharing of memory between processes, as each process has its page table that maps its logical address.
+- Swapping is easy between equal-sized pages and page frames: As pages and frames are of equal size, swapping between them becomes very easy.
 
-- Q. What is the role of a page table in the paging technique?
+<b>Q. What is the role of a page table in the paging technique?</b>
 An essential part of the operating system paging method is the page table. The mapping between virtual addresses used by a process and physical addresses utilized by the hardware is stored in this data structure, which is used by the operating system. The page table maintains the mapping between logical page numbers and physical page frames and the memory management unit converts logical addresses into physical addresses using the page table. The page table's function in the paging technique is to supply the base address of the frame (matching frame number) where that page is placed in the main memory.
 
-- Q. When does a page fault occur, and what does it signify?
+<b>Q. When does a page fault occur, and what does it signify?</b>
 An attempt by a program to access data or code that is in its address space but is not currently available in the system RAM results in a page fault. It signifies that the data or code being accessed is not present in the physical memory or RAM and must be retrieved from secondary storage, such as a hard disk or solid-state drive. When a page fault occurs, the computer hardware traps the kernel, and the program counter (PC) is saved on the stack. The operating system then finds out which virtual page is needed and retrieves it from secondary storage.
 
-- Q. Mention some important characteristics of paging.
+<b>Q. Mention some important characteristics of paging.</b>
 Some characteristics of paging are:
 
 - Fixed-size blocks: Paging divides the main memory into fixed-size blocks called frames, and the process is divided into pages of the same size as frames.
 - Non-contiguous allocation of physical memory: Paging does not need contiguous allocation of physical memory since it supports non-contiguous allocation.
-- Memory protection: Through the association of protection bits with each page, paging offers memory protection and these bits, which determine protection on the relevant page, are connected to each item in the page table.
+- Memory protection: Through the association of protection bits with each page, paging offers memory protection and these bits, which determine protection on the relevant page, are connected to each item in the page table
