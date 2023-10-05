@@ -8,7 +8,7 @@ In an operating system, memory management refers to dividing the memory among th
 
 Operating systems utilize paging as a memory management strategy to manage memory and assign memory to programs, so it eliminates the requirement for contiguous physical memory allocation. Paging is the procedure of transferring operations in the form of pages from the secondary storage into the primary memory. Memory is split into fixed-size units called pages in paging, and processes are given memory allotments based on these pages. Paging is a logical idea that is utilized to provide quicker access to data.
 
-###What is Paging?
+### What is Paging?
 Paging is a static memory allocation method that allows a process's physical address space to be of a non-contiguous type. It's a memory management scheme or storage mechanism that lets the operating system fetch processes from secondary memory in the form of pages and place them in the main memory. The paging hardware and operating system are integrated to implement the paging process.
 
 A page is a logical memory unit in a program. Logical memory is organized into equal-sized pages or equal-sized blocks. A frame is a type of physical memory unit. In the concept of paging, physical memory (main memory) is organized into frames, which are equally sized memory blocks. The memory size of a new process is determined when it arrives. If a process has n pages in local memory, there must be n frames available in the system.
