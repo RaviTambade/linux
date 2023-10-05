@@ -33,6 +33,8 @@ Paging in OS has five key characteristics:
 Example of Paging
 Here is an example. Let’s say the main memory size is 64B and the frame size is 4B then, the number of frames would be 64/4 = 16. There are 4 processes. The size of each process is 16B and the page size is also 4B then, the number of pages in each process = 16/4 = 4. These pages may be stored in the main memory frames in a non-contiguous form, depending on their availability.
 
+<img src="/images/memory/paging/paging_01.jpg"/>
+
 #### Understanding Paging In Operating System In Detail
 
 Paging in OS: Page Table
@@ -47,6 +49,8 @@ When the CPU generates a page number, the page table displays the relevant frame
 The required physical address is formed by multiplying the frame number by the page offset. The frame number identifies the frame in which the required page is stored. Page Offset provides the precise word from that page that must be read.
 
 #### Understanding Paging In Operating System In Detail
+
+<img src="/images/memory/paging/paging_02.jpg"/>
 
 Every new process creates a separate page table (stored in physical memory). A page table entry contains a variety of page-related information. The information contained in the page table item differs from one operating system to another. PTE has the following information:
 
@@ -66,6 +70,7 @@ Dirty bit: This bit is also known as the "Modified bit." This bit indicates whet
 
 ### Understanding Paging In Operating System In Detail
 
+<img src="/images/memory/paging/paging_03.jpg"/>
 ##### Page Table Types
 
 Following are the two most used Page Table types:
@@ -93,6 +98,7 @@ Drawback: All of the page tables are kept in memory. As a result, getting the ph
 
 ### Understanding Paging In Operating System In Detail
 
+<img src="/images/memory/paging/paging_04.jpg"/>
 Paging with TLB (Translation Look-aside Buffer)
 To access a byte in paging, the first-page table item must be visited, followed by the bytes.
 As a result, two memory accesses will be required. Memory access is slowed by a factor of two as a result. In most cases, this delay would be intolerable.
@@ -105,6 +111,7 @@ Despite the high cost of the technology, the search mechanism that is enabled in
 
 ### Understanding Paging In Operating System In Detail
 
+<img src="/images/memory/paging/paging_05.jpg"/>
 Advantages of Paging in OS
 - Memory management is effective.
 - Simplicity in partitioning (non-contiguous memory allocation).
