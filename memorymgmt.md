@@ -103,8 +103,8 @@ If we speak of paging in the operating system, the logical and physical memory a
 
 The CPU generates a logical address that is made up of two parts-
 
-Page Number (p): Determines which page of the process the CPU wishes to read the data from.
-Page Offset (d): Defines which word on the page the CPU wants to read.
+- <b>Page Number (p)</b>: Determines which page of the process the CPU wishes to read the data from.
+- <b>Page Offset (d)</b>: Defines which word on the page the CPU wants to read.
 When the CPU generates a page number, the page table displays the relevant frame number (frame base address) for each page in the main memory.
 
 The required physical address is formed by multiplying the frame number by the page offset. The frame number identifies the frame in which the required page is stored. Page Offset provides the precise word from that page that must be read.
