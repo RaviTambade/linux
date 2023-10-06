@@ -115,18 +115,18 @@ The required physical address is formed by multiplying the frame number by the p
 
 Every new process creates a separate page table (stored in physical memory). A page table entry contains a variety of page-related information. The information contained in the page table item differs from one operating system to another. PTE has the following information:
 
-Frame Number: It is the most crucial piece of information in a page table entry. The frame number identifies the memory frames in the paging in which the page is stored. The size of the frame number is determined by the number of frames in the main memory.
+<b>Frame Number</b>: It is the most crucial piece of information in a page table entry. The frame number identifies the memory frames in the paging in which the page is stored. The size of the frame number is determined by the number of frames in the main memory.
 The number of bits for frame = Size of Physical memory/Frame size.
 
-Present/Absent Bit: This is also referred to as the valid/invalid bit. This bit indicates whether or not the page is in the main memory space. This bit is set to 0 if the page is not available in the main memory; otherwise, it is set to 1.
+<b>Present/Absent Bit</b>: This is also referred to as the valid/invalid bit. This bit indicates whether or not the page is in the main memory space. This bit is set to 0 if the page is not available in the main memory; otherwise, it is set to 1.
 
-Protection bit: This bit is also known as the 'Read / Write bit.' This bit is about page security. It determines whether or not the user has permission to read and write to the page. This bit is set to 0 if only read operations are allowed and no writing operations are allowed. If both read and write operations are permitted, this bit will be set to 1.
+<b>Protection bit</b>: This bit is also known as the 'Read / Write bit.' This bit is about page security. It determines whether or not the user has permission to read and write to the page. This bit is set to 0 if only read operations are allowed and no writing operations are allowed. If both read and write operations are permitted, this bit will be set to 1.
 
-Reference bit: The reference bit indicates whether or not the page was referred to in the previous clock cycle. If the page has recently been referenced, this bit is set to 1, otherwise, it is set to 0.
+<b>Reference bit</b>: The reference bit indicates whether or not the page was referred to in the previous clock cycle. If the page has recently been referenced, this bit is set to 1, otherwise, it is set to 0.
 
-Caching Enabled/Disabled: The reference bit indicates whether or not the page was referred to in the previous clock cycle. If the page has recently been referenced, this bit is set to 1, otherwise, it is set to 0.
+<b>Caching Enabled/Disabled</b>: The reference bit indicates whether or not the page was referred to in the previous clock cycle. If the page has recently been referenced, this bit is set to 1, otherwise, it is set to 0.
 
-Dirty bit: This bit is also known as the "Modified bit." This bit indicates whether or not the page has been changed. This bit is set to 1 if the page has been updated; otherwise, it is set to 0.
+<b>Dirty bit</b>: This bit is also known as the "Modified bit." This bit indicates whether or not the page has been changed. This bit is set to 1 if the page has been updated; otherwise, it is set to 0.
 
 
 ### Understanding Paging In Operating System In Detail
@@ -137,26 +137,26 @@ Dirty bit: This bit is also known as the "Modified bit." This bit indicates whet
 
 Following are the two most used Page Table types:
 
-1. Single Level Page Table
+1. <b>Single Level Page Table</b>
 Only single-page tables are used in this procedure. Page tables are made up of a linear array of page table entries (PTEs). Each PTE holds information on the page, such as its physical page number and status bits, such as whether the page is valid or not, as well as any other bits.
 
 Every memory reference will have its address translated. The size of the page table might vary greatly depending on the page size. The loading of larger page tables takes longer.
 
-Drawback: The main downside of this strategy is that managing these big page tables as a single entity is problematic. Because of the additional memory reference for the page table, mapping from virtual to physical address is delayed.
+<b>Drawback</b>: The main downside of this strategy is that managing these big page tables as a single entity is problematic. Because of the additional memory reference for the page table, mapping from virtual to physical address is delayed.
 
-2. Multi-Level Page Table
+2. <b>Multi-Level Page Table</b>
 
 A multilevel page table is split into two or more levels. Page tables are stored in multi-level tables, which have a tree-like structure.
 
-The level-0 page table's entries are pointers to a level-1 page table.
-The level-1 page table's entries are pointers to a level-2 page table.
+- The level-0 page table's entries are pointers to a level-1 page table.
+- The level-1 page table's entries are pointers to a level-2 page table.
 Actual page information will be stored in the entries of the final level page table.
 
 When paging is implemented on the page table in multilevel paging, the base address of the first-level page entry will be the base address of the second-level page table entry, and the second-level page table entry will be the base address of the third-level page table entry, and so on.
 
 The frame number of actual pages will be displayed in the final level page table item. In multilevel paging, regardless of the level of paging, all the PT will be stored in the main memory and all PT entries carry simply the frame number.
 
-Drawback: All of the page tables are kept in memory. As a result, getting the physical address of the page frame needs more than one memory access, one for each level required. Extra memory references to access address translation can slow down a program in memory by a factor of two or more, which is a considerable drawback.
+<b>Drawback</b>: All of the page tables are kept in memory. As a result, getting the physical address of the page frame needs more than one memory access, one for each level required. Extra memory references to access address translation can slow down a program in memory by a factor of two or more, which is a considerable drawback.
 
 ### Understanding Paging In Operating System In Detail
 
@@ -174,7 +174,7 @@ Despite the high cost of the technology, the search mechanism that is enabled in
 ### Understanding Paging In Operating System In Detail
 
 <img src="/images/memory/paging/paging_05.jpg"/>
-Advantages of Paging in OS
+<b>Advantages of Paging in OS</b>
 - Memory management is effective.
 - Simplicity in partitioning (non-contiguous memory allocation).
 - Allocating memory is simple and inexpensive.
@@ -184,7 +184,7 @@ Advantages of Paging in OS
 - More efficient swapping.
 
 
-Disadvantages of Paging in OS
+<b>Disadvantages of Paging in OS</b>
 - Internal fragmentation (only at the last page of the process).
 - Address translation necessitates the use of specialized hardware.
 - Page Table is stored in the main memory.
@@ -205,11 +205,11 @@ In paging, logical pages are fixed-sized blocks of logical or secondary memory. 
 <b>Q. How does paging contribute to memory protection in a computer system?</b>
 Paging contributes to memory protection in a computer system in the following ways:
 
-- Protection bits: Through the association of protection bits with each page, paging enables memory protection and these bits identify the protection on the appropriate page and are linked to each item in the page table. The protection bits can be used to control access to pages and prevent unauthorized access to memory.
+- <b>Protection bits</b>: Through the association of protection bits with each page, paging enables memory protection and these bits identify the protection on the appropriate page and are linked to each item in the page table. The protection bits can be used to control access to pages and prevent unauthorized access to memory.
 
-- Valid/Invalid bit: The paging process should be protected by using the concept of insertion of an additional bit called Valid/Invalid bit. This bit is used to indicate whether a page is currently in memory or not. If the bit is set to valid, the page is in memory, and if it is set to invalid, the page is not in memory.
+- <b>Valid/Invalid bit</b>: The paging process should be protected by using the concept of insertion of an additional bit called Valid/Invalid bit. This bit is used to indicate whether a page is currently in memory or not. If the bit is set to valid, the page is in memory, and if it is set to invalid, the page is not in memory.
 
-- Easy-to-use memory management algorithm: External fragmentation is unnecessary because of the simple-to-use memory management mechanism of paging. It is a sensible idea and enables quicker access to data.
+- <b>Easy-to-use memory management algorithm</b>: External fragmentation is unnecessary because of the simple-to-use memory management mechanism of paging. It is a sensible idea and enables quicker access to data.
 
 <b>Q. Mention some advantages of paging.</b>
 Some advantages of paging are:
@@ -227,6 +227,6 @@ An attempt by a program to access data or code that is in its address space but 
 <b>Q. Mention some important characteristics of paging.</b>
 Some characteristics of paging are:
 
-- Fixed-size blocks: Paging divides the main memory into fixed-size blocks called frames, and the process is divided into pages of the same size as frames.
-- Non-contiguous allocation of physical memory: Paging does not need contiguous allocation of physical memory since it supports non-contiguous allocation.
-- Memory protection: Through the association of protection bits with each page, paging offers memory protection and these bits, which determine protection on the relevant page, are connected to each item in the page table
+- <b>Fixed-size blocks</b>: Paging divides the main memory into fixed-size blocks called frames, and the process is divided into pages of the same size as frames.
+- <b>Non-contiguous allocation of physical memory</b>: Paging does not need contiguous allocation of physical memory since it supports non-contiguous allocation.
+- <b>Memory protection</b>: Through the association of protection bits with each page, paging offers memory protection and these bits, which determine protection on the relevant page, are connected to each item in the page table
