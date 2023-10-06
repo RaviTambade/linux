@@ -163,15 +163,9 @@ The frame number of actual pages will be displayed in the final level page table
 ### Understanding Paging In Operating System In Detail
 
 <img src="/images/memory/paging/paging_04.jpg"/>
-Paging with TLB (Translation Look-aside Buffer)
-To access a byte in paging, the first-page table item must be visited, followed by the bytes.
-As a result, two memory accesses will be required. Memory access is slowed by a factor of two as a result. In most cases, this delay would be intolerable.
 
-The above issue can be remedied by employing a fast-searching hardware cache called a translation look-aside buffer. The TLB is a type of associative fast memory.
-
-Every table entry is broken into two parts: one is the key, and the other is the value. When an object is introduced to the associative memory, it is compared to all keys at the same time. If there is a match, the value field for that match is returned.
-
-Despite the high cost of the technology, the search mechanism that is enabled in this way is extremely quick. TLB typically stores a limited amount of entries, usually between 64 and 1024.
+Paging with <b>TLB (Translation Look-aside Buffer)</b>
+To access a byte in paging, the first-page table item must be visited, followed by the bytes. As a result, two memory accesses will be required. Memory access is slowed by a factor of two as a result. In most cases, this delay would be intolerable. The above issue can be remedied by employing a fast-searching hardware cache called a translation look-aside buffer. The TLB is a type of associative fast memory. Every table entry is broken into two parts: one is the key, and the other is the value. When an object is introduced to the associative memory, it is compared to all keys at the same time. If there is a match, the value field for that match is returned. Despite the high cost of the technology, the search mechanism that is enabled in this way is extremely quick. TLB typically stores a limited amount of entries, usually between 64 and 1024.
 
 ### Understanding Paging In Operating System In Detail
 
