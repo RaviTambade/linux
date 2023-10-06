@@ -105,6 +105,7 @@ The CPU generates a logical address that is made up of two parts:
 
 - <b>Page Number (p)</b>: Determines which page of the process the CPU wishes to read the data from.
 - <b>Page Offset (d)</b>: Defines which word on the page the CPU wants to read.
+
 When the CPU generates a page number, the page table displays the relevant frame number (frame base address) for each page in the main memory.
 
 The required physical address is formed by multiplying the frame number by the page offset. The frame number identifies the frame in which the required page is stored. Page Offset provides the precise word from that page that must be read.
@@ -116,7 +117,8 @@ The required physical address is formed by multiplying the frame number by the p
 Every new process creates a separate page table (stored in physical memory). A page table entry contains a variety of page-related information. The information contained in the page table item differs from one operating system to another. PTE has the following information:
 
 <b>Frame Number</b>: It is the most crucial piece of information in a page table entry. The frame number identifies the memory frames in the paging in which the page is stored. The size of the frame number is determined by the number of frames in the main memory.
-The number of bits for frame = Size of Physical memory/Frame size.
+
+<b>The number of bits for frame = Size of Physical memory/Frame size.</b>
 
 <b>Present/Absent Bit</b>: This is also referred to as the valid/invalid bit. This bit indicates whether or not the page is in the main memory space. This bit is set to 0 if the page is not available in the main memory; otherwise, it is set to 1.
 
